@@ -1,0 +1,24 @@
+{
+    "name": "tinymvc/laravel-supports",
+    "description": "A collection of support classes and functions of Laravel, fine tuned for TinyMVC/Spark.",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "psr/clock": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spark\\": "src/"
+        },
+        "files": [
+            "./src/functions.php",
+            "./src/helpers.php"
+        ]
+    },
+    "suggest": {
+        "league/commonmark": "Required to use Str::markdown() and Stringable::markdown() (^2.6).",
+        "voku/portable-ascii": "Required for Str::ascii(), Str::slug(), Str::isAscii(), and ASCII validation rules (^2.0).",
+        "ramsey/uuid": "Required to use Str::uuid() (^4.7).",
+        "doctrine/inflector": "Required to use Str::plural() and Stringable::plural() (^2.0)."
+    }
+}
