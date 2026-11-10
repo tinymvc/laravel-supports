@@ -1,6 +1,6 @@
 {
     "name": "tinymvc/laravel-supports",
-    "description": "A collection of support classes and functions of Laravel, fine tuned for TinyMVC/Spark.",
+    "description": "A collection of support classes and functions of Laravel, fine-tuned for TinyMVC/Spark.",
     "license": "MIT",
     "require": {
         "php": ">=8.2",
