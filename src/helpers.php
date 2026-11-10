@@ -3,6 +3,7 @@
 use Spark\Contracts\Support\Htmlable;
 use Spark\Database\Model;
 use Spark\Support\HigherOrderTapProxy;
+use Spark\Support\Str;
 use Spark\Support\Stringable as SupportStringable;
 use Spark\Support\Arr;
 use Spark\Support\Collection;
