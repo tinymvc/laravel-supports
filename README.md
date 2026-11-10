@@ -1,7 +1,7 @@
 # Laravel Supports for TinyMVC/Spark
 
 Laravel-inspired support classes and helpers, fine-tuned for
-[TinyMVC/Spark](https://github.com/tinymvc/spark).
+[TinyMVC / Spark](https://github.com/tinymvc).
 
 ## Installation
 
